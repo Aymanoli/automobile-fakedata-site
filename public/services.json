@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "ENGINE DIAGNOSTIC",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nulla sunt. Ad fugit incidunt dolor.",
+        "img": "https://i.ibb.co/TtDdGhM/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "WHEEL ALIGNMENT",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nulla sunt. Ad fugit incidunt dolor.",
+        "img": "https://i.ibb.co/8ddHXPr/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "OLI CHANGING",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nulla sunt. Ad fugit incidunt dolor.",
+        "img": "https://i.ibb.co/Czq83kc/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "BRAKE REPARING",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nulla sunt. Ad fugit incidunt dolor.",
+        "img": "https://i.ibb.co/bm5VfGm/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "WASH AND GLASSING",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nulla sunt. Ad fugit incidunt dolor.",
+        "img": "https://i.ibb.co/Jrj13WP/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "COMPLETE ANALYSIS",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nulla sunt. Ad fugit incidunt dolor.",
+        "img": "https://i.ibb.co/gmn8CfN/6.jpg"
+    }
+
+]
