@@ -1,6 +1,7 @@
 import React from 'react';
 // import Expert from '../Expert/Expert'
 import Expert from '../Expert/Expert'
+// import from '../../'
 
 import mc1 from '../../../images/mechanic/mc-1.webp';
 import mc2 from '../../../images/mechanic/mc-2.webp';
@@ -40,14 +41,14 @@ const experts =[
 const Exparts = () => {
     return (
         <div className='container'>
-            <h2 className='text-primary'>Our Exparts</h2>
+            <h2 className='text-primary mt-5'>Our Exparts</h2>
             <div className='row'>
                 {
-                    experts.map(expert =><Expert
+                    experts.map(expert => <Expert
                         key={expert.name}
                         expert={expert}
-                    ></Expert>)
-                }
+                    ></Expert>
+                )}
             </div>
         </div>
     );
