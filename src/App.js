@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import AuthProvider from './contexts/AuthProvider';
 import Booking from './pages/Booking/Booking/Booking';
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login/Login';
@@ -10,6 +11,7 @@ import Header from './pages/Shared/Header/Header';
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
         <Header></Header>
         <Routes>
@@ -21,6 +23,7 @@ function App() {
           <Route path='*' element={<NotFound/>}></Route>
         </Routes>
       </Router>
+      </AuthProvider>
     </div>
   );
 }
