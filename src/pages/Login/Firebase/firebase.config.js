@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyA0G-yX4LbOrQ5piIVq1FTEL1si68o1Fco",
-    authDomain: "genious-car-mechanics-38c43.firebaseapp.com",
-    projectId: "genious-car-mechanics-38c43",
-    storageBucket: "genious-car-mechanics-38c43.appspot.com",
-    messagingSenderId: "960792763574",
-    appId: "1:960792763574:web:7645cdfac567c67a7b1a17"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
   };
 
   export default firebaseConfig;
