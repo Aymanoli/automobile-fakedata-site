@@ -7,8 +7,6 @@ import Login from './pages/Login/Login/Login';
 import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
 import NotFound from './pages/NotFound/NotFound';
 import Header from './pages/Shared/Header/Header';
-// import { HashLink } from 'react-router-hash-link';
-// import Services from './pages/Home/Services/Services';
 
 function App() {
   return (
